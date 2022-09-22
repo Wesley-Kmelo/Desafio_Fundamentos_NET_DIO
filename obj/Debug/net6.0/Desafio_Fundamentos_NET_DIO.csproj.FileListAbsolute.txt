@@ -1,0 +1,15 @@
+/home/wkmelo/Projetos/EstudosDIO/Estudos.NET/Desafio_Fundamentos_NET_DIO/bin/Debug/net6.0/Desafio_Fundamentos_NET_DIO
+/home/wkmelo/Projetos/EstudosDIO/Estudos.NET/Desafio_Fundamentos_NET_DIO/bin/Debug/net6.0/Desafio_Fundamentos_NET_DIO.deps.json
+/home/wkmelo/Projetos/EstudosDIO/Estudos.NET/Desafio_Fundamentos_NET_DIO/bin/Debug/net6.0/Desafio_Fundamentos_NET_DIO.runtimeconfig.json
+/home/wkmelo/Projetos/EstudosDIO/Estudos.NET/Desafio_Fundamentos_NET_DIO/bin/Debug/net6.0/Desafio_Fundamentos_NET_DIO.dll
+/home/wkmelo/Projetos/EstudosDIO/Estudos.NET/Desafio_Fundamentos_NET_DIO/bin/Debug/net6.0/Desafio_Fundamentos_NET_DIO.pdb
+/home/wkmelo/Projetos/EstudosDIO/Estudos.NET/Desafio_Fundamentos_NET_DIO/obj/Debug/net6.0/Desafio_Fundamentos_NET_DIO.csproj.AssemblyReference.cache
+/home/wkmelo/Projetos/EstudosDIO/Estudos.NET/Desafio_Fundamentos_NET_DIO/obj/Debug/net6.0/Desafio_Fundamentos_NET_DIO.GeneratedMSBuildEditorConfig.editorconfig
+/home/wkmelo/Projetos/EstudosDIO/Estudos.NET/Desafio_Fundamentos_NET_DIO/obj/Debug/net6.0/Desafio_Fundamentos_NET_DIO.AssemblyInfoInputs.cache
+/home/wkmelo/Projetos/EstudosDIO/Estudos.NET/Desafio_Fundamentos_NET_DIO/obj/Debug/net6.0/Desafio_Fundamentos_NET_DIO.AssemblyInfo.cs
+/home/wkmelo/Projetos/EstudosDIO/Estudos.NET/Desafio_Fundamentos_NET_DIO/obj/Debug/net6.0/Desafio_Fundamentos_NET_DIO.csproj.CoreCompileInputs.cache
+/home/wkmelo/Projetos/EstudosDIO/Estudos.NET/Desafio_Fundamentos_NET_DIO/obj/Debug/net6.0/Desafio_Fundamentos_NET_DIO.dll
+/home/wkmelo/Projetos/EstudosDIO/Estudos.NET/Desafio_Fundamentos_NET_DIO/obj/Debug/net6.0/refint/Desafio_Fundamentos_NET_DIO.dll
+/home/wkmelo/Projetos/EstudosDIO/Estudos.NET/Desafio_Fundamentos_NET_DIO/obj/Debug/net6.0/Desafio_Fundamentos_NET_DIO.pdb
+/home/wkmelo/Projetos/EstudosDIO/Estudos.NET/Desafio_Fundamentos_NET_DIO/obj/Debug/net6.0/Desafio_Fundamentos_NET_DIO.genruntimeconfig.cache
+/home/wkmelo/Projetos/EstudosDIO/Estudos.NET/Desafio_Fundamentos_NET_DIO/obj/Debug/net6.0/ref/Desafio_Fundamentos_NET_DIO.dll
