@@ -92,6 +92,7 @@ while (Menu)
  }
 }
 
+Console.Clear();
 Console.WriteLine($"Sistema encerrado com sucesso!!! \nAté mais {usuario} !!!");
 
 
