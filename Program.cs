@@ -18,6 +18,7 @@ string? usuario;
 while (!login)
 {
     Console.WriteLine("Deseja prosseguir com esse login ? Escolha 'sim' ou 'nao'");
+    Console.Write("=> : ");
 
     switch (Console.ReadLine())
     {
