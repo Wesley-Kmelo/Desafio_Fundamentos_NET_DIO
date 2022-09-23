@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Globalization;
 
 namespace Desafio_Fundamentos_NET_DIO.Models
 {
@@ -11,8 +12,12 @@ namespace Desafio_Fundamentos_NET_DIO.Models
         List<Carro> carro = new List<Carro>();
 
         public void AdicionarVeiculo(string placa, decimal precoInicial)
-        {            
-            carro.Add(new Carro(){Placa = placa, PrecoInicial = precoInicial });
+        {  
+            string p1 = placa.Substring(0,3).ToUpper();   //separa a string desejada de 0 até o indice 3 pegando os valores antes do fim(0 1 e 2)
+            string p2 = string.Format("{0,5}",placa.Substring(3)) ; //separa a string a partir do indice 3 inclusive e depois formata o restante em um espaço de 5 caracteres
+            string plc = $"{p1}-{p2}"; //junta tudo em uma nova string permitindo um novo formato (XXX-xxxxx)
+
+            carro.Add(new Carro(){Placa = plc, PrecoInicial = precoInicial });
         }
 
        
@@ -90,5 +95,6 @@ namespace Desafio_Fundamentos_NET_DIO.Models
             public string? Placa {get; set;}
             public decimal PrecoInicial {get; set;}
         }
-    }
+
+ }
 }
