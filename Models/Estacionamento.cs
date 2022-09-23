@@ -79,7 +79,7 @@ namespace Desafio_Fundamentos_NET_DIO.Models
             {                
              Console.WriteLine("\n LISTA DE VEÍCULOS ESTACIONADOS\n");
              carro.ForEach(carro=>Console.WriteLine
-              ($" > PLACA => {carro.Placa} VALOR INICIAL => R$ {carro.PrecoInicial}"));
+              ($" > PLACA => {carro.Placa} <==>  VALOR INICIAL => R$ {carro.PrecoInicial}"));
             }
             else
             {
