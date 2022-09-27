@@ -17,7 +17,10 @@ namespace Desafio_Fundamentos_NET_DIO.Models
             string p2 = string.Format("{0,5}",placa.Substring(3)) ; //separa a string a partir do indice 3 inclusive e depois formata o restante em um espaço de 5 caracteres
             string plc = $"{p1}-{p2}"; //junta tudo em uma nova string permitindo um novo formato (XXX-xxxxx)
 
-            carro.Add(new Carro(){Placa = plc, PrecoInicial = precoInicial });
+            //esta linha faz o mesmo procedimento das 3 linhas acima
+            string plc1= placa.Insert(3,"-").ToUpper();
+
+            carro.Add(new Carro(){Placa = plc1, PrecoInicial = precoInicial });
         }
 
        
@@ -26,9 +29,10 @@ namespace Desafio_Fundamentos_NET_DIO.Models
             Console.WriteLine("SAÍDA DE VEÍCULOS");
             Console.Write("\nDigite a placa => : ");
             string? busca = Console.ReadLine();
+            string plc = busca!.Insert(3,"-").ToUpper();
 
             //pesquisa o item pelo atributo Placa e descobre o indice
-            int item = carro.FindIndex(0,i => i.Placa == busca);
+            int item = carro.FindIndex(0,i => i.Placa == plc);
 
             //indice de lista sempre começa em 0. Se não existir o indice , é pq a busca falhou.
             //Nesse caso, cai na condição else
@@ -51,14 +55,14 @@ namespace Desafio_Fundamentos_NET_DIO.Models
                {
                 carro.RemoveAt(item); //remove pelo Indice atribuido acima 
                 Console.Clear();
-                Console.WriteLine($"O Veículo de placa ''{busca}'' foi REMOVIDO.");
+                Console.WriteLine($"O Veículo de placa ''{plc}'' foi REMOVIDO.");
                 Console.Write("Retornado ao MENU...\n");
                 return;
                }
                else
                {
                 Console.Clear();
-                Console.WriteLine("\nO Veículo NÃO será removido.");
+                Console.WriteLine($"\nO Veículo da placa '{plc}' NÃO será removido.");
                 Console.WriteLine("\nPara remover Veículo, digite a opção 2 ");
                 Console.WriteLine("Após os procedimentos responda 'sim'");
                 return;
