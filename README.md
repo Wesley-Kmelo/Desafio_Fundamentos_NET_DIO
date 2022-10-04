@@ -15,11 +15,15 @@ Dessa forma, o aplicativo inicia solicitando o nome de quem está utilizando. Ca
 
 Em seguida é mostrado um MENU onde estão as opçoes para utilizar o Sistema.
 
->O método ADICIONAR adiciona a placa(*string*) e um valor Inicial(*decimal*) em uma lista.
+>O método ADICIONAR adiciona a placa(*string*) e um valor Inicial(*decimal*) em uma lista, além de formatar a placa como XXX-XXXX.
 >
->O método REMOVER , solicita a placa e se existir, solicita qual o tempo de estacionamento e em seguida o valor da hora e depois calcula o produto desses dois valores mais o valor inicial. Depois ainda pergunta se realmente quer remover a placa.  E se não existir a placa retorna uma mensagem de erro personalizada , afirmando que a placa não existe e solicitando que seja conferida através da opção LISTAR.
+>O método REMOVER , verifica se existe alguma placa cadastrada no sistema. Senão houver, exibe uma mensagem de erro e retorna ao MENU. Em caso de haver, solicita a placa e se existir, solicita qual o tempo de estacionamento e em seguida o valor da hora e depois calcula o produto desses dois valores mais o valor inicial. Depois ainda pergunta se realmente quer remover a placa.  E se não existir a placa retorna uma mensagem de erro personalizada , afirmando que a placa não existe e solicitando que seja conferida através da opção LISTAR.
 >
 >O método LISTAR como o nome diz lista todos os veículos. Configurado uma mensagem estilizada também.
+
+Esse projeto prático faz parte do bootcamp de .NET Developer oferecido pela [Digital Innovation One](https://www.dio.me/) em parceria com a [Pottencial](https://pottencial.com.br/). 
+
+Para esse projeto, foram utilizados a .NET 6.0 , Ubuntu 20.04LTS e Visual Studio Code, configurado com plugins [C# Microsoft](https://github.com/OmniSharp/omnisharp-vscode) e [C# Extensions by JosKreativ](https://github.com/kreativjos/csharpextensions).
 
 
 
