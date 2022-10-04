@@ -26,6 +26,13 @@ namespace Desafio_Fundamentos_NET_DIO.Models
        
         public void RemoverVeiculo(){
 
+            if (carro.Count == 0)
+            {
+                Console.WriteLine("Não existem veículos cadastrados");
+                Console.WriteLine("...VOltando ao Menu");
+                return;
+            }
+
             Console.WriteLine("SAÍDA DE VEÍCULOS");
             Console.Write("\nDigite a placa => : ");
             string? busca = Console.ReadLine();
